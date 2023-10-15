@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Test from './test'
+import Stop from './test'
+import ThisTest from './this-test'
 
 function App() {
   return (
     <div className="App">
-      <Test />
+      <Stop />
+      <ThisTest />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
